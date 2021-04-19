@@ -1,3 +1,13 @@
 *{
     text-align: center;
 }
+
+#servicios{
+    width: 300px;
+}
+
+@media only screen and (max-width:450px) {
+    #servicios{
+        width: 100%;
+    }
+};
