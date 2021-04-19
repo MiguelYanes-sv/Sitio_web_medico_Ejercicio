@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Hospital General Frutos</title>
+</head>
+<body>
+    <div class="contenedor">
+        
+        <!-- Encabezado -->
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/img/Logo.png" alt="">
+                </a>
+            </div>
+        </header>
+        
+
+        <section class="cuerpo">
+
+            <!-- Navegador Lateral -->
+            <aside class="contenedor__nav">
+                <nav>
+                    <a href="index.html"><div>Inicio</div></a>
+                    <a href="servicios.html"><div>Servicios médicos</div></a>
+                    <a href="conocenos.html"><div>Conócenos</div></a>
+                    <a href="contactanos.html"><div class="actual">Contáctanos</div></a>
+                </nav>
+            </aside>
+
+            <!-- Publicaciones -->
+            <section class="main">
+                <h1>Contáctanos</h1>
+                
+                <form action="#" target="" method="get" name="formDatosPersonales">
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre"/><br>
+                
+                    <label for="apellidos">Apellido</label>
+                    <input type="text" name="apellidos" id="apellidos" placeholder="Escriba su primer apellido"/><br>
+                
+                    <label for="apellidos">Teléfono</label>
+                    <input type="text" name="telefono" id="telefono" placeholder="Escriba su número telefónico"/><br>
+                    
+                    <label for="email" />Email</label>
+                    <input type="email" name="email" id="email" placeholder="Escriba su correo electrónico" required /><br>
+                
+                    <label for="asunto">Asunto</label>
+                    <input type ="text" name="asunto" id="asunto" placeholder="Titular de la consulta"/><br><br><br>
+                
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" for="mensaje" placeholder="Escriba aqui su mensaje" maxlength="300"></textarea>
+                    
+                    <input type="submit" name="enviar" value="Enviar mensaje"/>
+                </form>
+            </section>
+        </section>
+        
+
+        <!-- Pie de pagina -->
+        <footer>
+            <div class="Cap1">
+                <div class="links">
+                    <nav>
+                        <a href="index.html">Inicio</a>
+                        <a href="servicios.html">Servicios médicos</a>
+                        <a href="conocenos.html">Conócenos</a>
+                        <a href="contactanos.html">Contactanos</a>
+                    </nav>
+                </div>
+                <div class="redes">
+                    <div>
+                        <a href="#"><img src="img/facebook.png" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="img/twitter.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Cap2">
+                <div class="credito">
+                    <h3>Derechos Reservador © 2021 Powered By Miguel Yanes</h3>
+                </div>
+            </div>
+            
+        </footer>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+.titulo{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 0;
+    align-items: center;
+    border-bottom: 2px solid #0a6fa2;
+}
+
+.titulo:nth-last-child(1){
+    border-bottom: none;
+}
+
+.texto{
+    width: 60%;
+}
+
+.imagen img{
+    width: 345px;
+    padding-bottom: 20px;
+}
+
+.efecto{
+    position: relative;
+    animation: example 2s;
+}
+
+@keyframes example {
+    0%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@media only screen and (max-width: 1315px) {
+    *{
+        box-sizing: border-box;
+    }
+    
+    .titulo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto{
+        width: 100%;
+    }
+
+    .imagen img{
+        width: 345px;
+    }
+}
+
