@@ -1,4 +1,4 @@
-# Ejercicio Práctico - Pagina de Hospital
+# Ejercicio Práctico - Página de Hospital
 Esta es un ejemplo de sitio web responsivo.
 
 
