@@ -1,2 +1,6 @@
-# Pagina-Medica
-Esta es una página web de prueba.
+# Ejercicio Práctico - Pagina de Hospital
+Esta es un ejemplo de sitio web responsivo.
+
+
+## Vista previa del sitio
+https://pagina-medica.vercel.app/
